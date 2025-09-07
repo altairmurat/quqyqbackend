@@ -1,10 +1,8 @@
 fastapi==0.103.0
 uvicorn[standard]==0.23.2
 sqlalchemy==2.0.20
-pydantic[email]==2.4.2
+pydantic[email]==2.8.2
 passlib[bcrypt]==1.7.4
 python-jose[cryptography]==3.3.0
-python-multipart==0.0.6  # Pin to a specific version
-# Add database driver based on your database
-psycopg2-binary==2.9.6  # For PostgreSQL
-# or pysqlite3==0.5.1    # For SQLite (uncomment if needed)
+python-multipart==0.0.6
+psycopg2-binary==2.9.6
